@@ -8,7 +8,7 @@ st.title("CGS Three-Layer Monte Carlo Simulator for Healthcare Expenditures")
 st.markdown("""
 This simulator models healthcare costs using a log-normal distribution, including:
 
-1. A base Monte Carlo of expenditures per person 
+1. A base Monte Carlo of expenditures per person for population defined by distribution characteristics (for now - we will later use the actual raw data)
 2. Subsampling  to simulate an employer group with truncation for the specific deductible and the excess layer, then summed group costs  
 3. Final sampling from those group sums to derive total claims against a book of premium based on number of policies written, giving the distribution and therefore what we should charge for the stop loss based on the original distribution.  
 
