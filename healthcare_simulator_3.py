@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-st.title("Three-Layer Monte Carlo Simulator for Healthcare Expenditures")
+st.title("CGS Three-Layer Monte Carlo Simulator for Healthcare Expenditures")
 
 st.markdown("""
 This simulator models healthcare costs using a log-normal distribution, including:
